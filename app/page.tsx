@@ -66,6 +66,8 @@ export default function Home() {
 <Slider/>
 <ServicesSection/>
 
+
+
 <AISolutionsSection/>
 <ServicesMarqueeSection/>
 
