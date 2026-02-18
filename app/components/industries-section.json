@@ -1,0 +1,55 @@
+{
+  "title": "Industries We Serve As Best Mobile App Development Company",
+  "subtitle": "Comfygen provides custom web and mobile app development solutions across a wide range of industries. By combining deep domain expertise with modern technologies, we help businesses improve efficiency, drive innovation, and achieve long-term digital success.",
+  "industries": [
+    {
+      "id": "education",
+      "title": "Education",
+      "description": "We build interactive and scalable education apps and eLearning app development solutions such as LMS systems, virtual classrooms, Tutor apps, and AI-powered digital education platforms.",
+      "keywords": ["education apps", "eLearning app development", "Tutor apps"]
+    },
+    {
+      "id": "transportation",
+      "title": "Transportation & Logistics",
+      "description": "We specialize in taxi app development and logistics app solutions such as Uber-like taxi booking apps, fleet and driver management systems, GPS tracking, and real-time ride monitoring for modern mobility businesses.",
+      "keywords": ["taxi app development", "logistics app solutions"]
+    },
+    {
+      "id": "real-estate",
+      "title": "Real Estate",
+      "description": "We deliver real estate smart contract development solutions designed to streamline project planning, resource management, workflow automation, and team collaboration through intelligent, scalable technologies.",
+      "keywords": ["real estate smart contract development"]
+    },
+    {
+      "id": "gaming",
+      "title": "Gaming & Sports",
+      "description": "We build immersive and scalable game app development solutions including mobile games, multiplayer gaming platforms, real-time gaming apps, and cloud-based gaming solutions.",
+      "keywords": ["game app development"]
+    },
+    {
+      "id": "healthcare",
+      "title": "Healthcare",
+      "description": "We develop comprehensive healthcare app solutions including telemedicine platforms, patient management systems, medical record applications, and health tracking solutions for modern healthcare delivery.",
+      "keywords": ["healthcare app solutions", "telemedicine platforms"]
+    },
+    {
+      "id": "finance",
+      "title": "Finance & Banking",
+      "description": "We create secure financial technology solutions including banking apps, payment gateway integrations, investment platforms, and fintech applications with advanced security and compliance features.",
+      "keywords": ["banking apps", "fintech applications"]
+    },
+    {
+      "id": "ecommerce",
+      "title": "E-commerce & Retail",
+      "description": "We build powerful e-commerce platforms and retail solutions including online marketplaces, shopping apps, inventory management systems, and customer engagement platforms for retail businesses.",
+      "keywords": ["e-commerce platforms", "retail solutions"]
+    },
+    {
+      "id": "food",
+      "title": "Food & Restaurant",
+      "description": "We develop food delivery and restaurant management solutions including ordering apps, kitchen management systems, delivery tracking platforms, and restaurant reservation applications.",
+      "keywords": ["food delivery", "restaurant management"]
+    }
+  ]
+}
+

@@ -1,65 +1,124 @@
-import Image from "next/image";
+"use client";
+import Header from "./components/header";
+import HeroSection from "./components/hero-section";
+import Slider from "./components/slider";
+import ServicesSection from "./components/services-section";
+import AISolutionsSection from "./components/ai-solutions-section";
+import IndustryExpertiseSection from "./components/industry-expertise-section";
+import CaseStudiesSection from "./components/case-studies-section";
+import BrandStoriesSection from "./components/brand-stories-section";
+import MetricsSection from "./components/metrics-section";
+import VideoTestimonials from "./components/video-testimonials";
+import AwardsSection from "./components/awards-section";
+import BlogInsightsSection from "./components/blog-insights-section";
+import CTABuildSection from "./components/cta-build-section";
+import ServicesMarqueeSection from "./components/services-marquee-section";
+import FAQSection from "./components/faq-section";
+import ContactUsSection from "./components/contact-us-section";
+import Footer from "./components/footer";
+import { useEffect, useRef } from "react";
+import { useScroll } from "framer-motion";
+import Lenis from "@studio-freight/lenis";
+import styles from './page.module.scss'
+import CardsCard from '../components/Card';
+import { projects } from '../data/parallaxData';
+
 
 export default function Home() {
+
+  const container = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: container,
+    offset: ['start start', 'end end']
+  })
+
+  useEffect(() => {
+    const lenis = new Lenis()
+
+    function raf(time: number) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+
+    return () => {
+      lenis.destroy()
+    }
+  }, [])
+
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+    <div className="">
+   <div 
+     className="relative"
+     style={{
+       backgroundImage: 'url(/herobanner.png)',
+       backgroundSize: 'cover',
+       backgroundPosition: 'top center',
+       backgroundRepeat: 'no-repeat',
+       backgroundAttachment: 'scroll',
+     }}
+   >
+    <Header/>
+    <HeroSection/>
     </div>
+<Slider/>
+<ServicesSection/>
+
+<AISolutionsSection/>
+<ServicesMarqueeSection/>
+
+    <section className="bg-[#f8f9fa] py-12 sm:py-16 md:py-20 lg:py-24 relative">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        {/* Header */}
+        <div className="space-y-4 sm:space-y-6 text-center mx-auto mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight px-2 sm:px-0">
+            Real Brand Stories To Inspire You
+          </h2>
+          
+          <p className="text-xs sm:text-sm md:text-base text-gray-600 max-w-2xl mx-auto px-2 sm:px-0">
+            Catch us innovating with cutting-edge projects that redefine industry standards.
+          </p>
+          
+          <div className="flex justify-center pt-2">
+            <button className="px-5 py-2.5 sm:px-6 sm:py-3 bg-[#000048] text-white text-sm sm:text-base font-semibold hover:bg-[#1a1a5e] transition-colors duration-300 rounded-lg">
+              Explore Case Studies
+            </button>
+          </div>
+        </div>
+
+        {/* Cards Container - Scroll behavior preserved */}
+        <main ref={container} className={`${styles.main} relative w-full`}>
+          {
+            projects.map( (project, i) => {
+              const targetScale = 1 - ( (projects.length - i) * 0.05);
+              const { link, ...rest } = project;
+              return <CardsCard key={`p_${i}`} i={i} {...rest} url={link} progress={scrollYProgress} range={[i * .25, 1]} targetScale={targetScale}/>
+            })
+          }
+        </main>
+      </div>
+    </section>
+<IndustryExpertiseSection/>
+{/* <CaseStudiesSection/> */}
+
+<MetricsSection/>
+
+<AwardsSection/>
+
+<BlogInsightsSection/>
+
+
+<ContactUsSection/>
+<FAQSection/>
+
+<Footer/>
+
+{/* <CTABuildSection/> */}
+
+
+    
+   </div>
   );
 }

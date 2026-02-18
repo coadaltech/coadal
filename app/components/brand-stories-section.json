@@ -1,0 +1,84 @@
+{
+  "title": "Real Brand Stories To Inspire You",
+  "subtitle": "Catch us innovating with cutting-edge projects that redefine industry standards.",
+  "buttonText": "Explore Case Studies",
+  "brands": [
+    {
+      "id": "orby",
+      "name": "Orby",
+      "logo": "/brands/orby-logo.png",
+      "description": "We developed Orby's AI-powered mobile and web platform, powered by the first Large Action Model, that streamlines enterprise tasks for enhanced efficiency through intelligent automation.",
+      "metrics": [
+        {
+          "label": "Current Valuation",
+          "value": "$100 M+"
+        },
+        {
+          "label": "Location",
+          "value": "USA"
+        }
+      ],
+      "image": "/finance2.jpg",
+      "imageText": "What will you do with your time back?",
+      "buttonText": "View Case Study"
+    },
+    {
+      "id": "freshworks",
+      "name": "freshworks",
+      "logo": "/brands/freshworks-logo.png",
+      "description": "We built Freshworks' AI-powered mobile app and web platform that integrates Freshdesk Agnes support tickets with Salesforce for seamless IT services and faster resolutions.",
+      "metrics": [
+        {
+          "label": "Product Adoption",
+          "value": "10 B+"
+        },
+        {
+          "label": "Revenue Growth",
+          "value": "$561.7 M+"
+        }
+      ],
+      "image": "/finance2.jpg",
+      "imageText": "",
+      "buttonText": "View Case Study"
+    },
+    {
+      "id": "khatabook",
+      "name": "Khatabook",
+      "logo": "/brands/khatabook-logo.png",
+      "description": "We developed Khatabook's digital ledger mobile app and web platform, making it the fastest-growing SaaS company for seamless financial management and tracking.",
+      "metrics": [
+        {
+          "label": "Users",
+          "value": "50 M+"
+        },
+        {
+          "label": "Revenue Generated",
+          "value": "81 Cr+"
+        }
+      ],
+      "image": "/finance2.jpg",
+      "imageText": "",
+      "buttonText": "View Case Study"
+    },
+    {
+      "id": "caratlane",
+      "name": "CARATLANE",
+      "logo": "/brands/caratlane-logo.png",
+      "description": "We created CaratLane's e-commerce mobile app and web platform, offering 5,000+ timeless jewelry designs, making elegance accessible and affordable for every occasion.",
+      "metrics": [
+        {
+          "label": "Revenue",
+          "value": "883Cr+"
+        },
+        {
+          "label": "Users",
+          "value": "8 M+"
+        }
+      ],
+      "image": "/finance2.jpg",
+      "imageText": "",
+      "buttonText": "View Case Study"
+    }
+  ]
+}
+

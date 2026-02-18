@@ -1,0 +1,103 @@
+{
+  "title": "Case Studies",
+  "subtitle": "Explore our successful projects and see how we've helped businesses transform their digital presence with innovative mobile and web solutions.",
+  "caseStudies": [
+    {
+      "id": "healthcare-app",
+      "title": "Healthcare Telemedicine Platform",
+      "category": "Healthcare",
+      "client": "Leading Healthcare Provider",
+      "description": "Developed a comprehensive telemedicine platform connecting patients with healthcare providers. The solution includes video consultations, prescription management, and health record access.",
+      "results": [
+        "50% reduction in appointment wait times",
+        "30% increase in patient satisfaction",
+        "100K+ active users within 6 months"
+      ],
+      "technologies": ["React Native", "Node.js", "AWS", "HIPAA Compliant"],
+      "image": "/healthcare.jpg",
+      "duration": "6 months",
+      "team": "8 developers"
+    },
+    {
+      "id": "ecommerce-platform",
+      "title": "Enterprise E-Commerce Platform",
+      "category": "E-Commerce",
+      "client": "Retail Chain",
+      "description": "Built a scalable e-commerce platform with multi-vendor support, advanced inventory management, and AI-powered recommendations. The platform handles millions of transactions monthly.",
+      "results": [
+        "200% increase in online sales",
+        "40% improvement in conversion rate",
+        "99.9% uptime achieved"
+      ],
+      "technologies": ["Next.js", "Python", "PostgreSQL", "Redis"],
+      "image": "/finance.jpg",
+      "duration": "8 months",
+      "team": "12 developers"
+    },
+    {
+      "id": "fintech-app",
+      "title": "Mobile Banking Application",
+      "category": "Finance",
+      "client": "Regional Bank",
+      "description": "Created a secure mobile banking app with biometric authentication, real-time transactions, and investment management features. The app ensures complete regulatory compliance.",
+      "results": [
+        "500K+ downloads in first quarter",
+        "95% user retention rate",
+        "Zero security breaches"
+      ],
+      "technologies": ["Flutter", "Java", "Blockchain", "Encryption"],
+      "image": "/finance.jpg",
+      "duration": "7 months",
+      "team": "10 developers"
+    },
+    {
+      "id": "education-platform",
+      "title": "E-Learning Management System",
+      "category": "Education",
+      "client": "Educational Institution",
+      "description": "Developed a comprehensive LMS platform with virtual classrooms, interactive content, and AI-powered learning analytics. The platform supports thousands of students and educators.",
+      "results": [
+        "80% increase in student engagement",
+        "60% reduction in administrative workload",
+        "50K+ active learners"
+      ],
+      "technologies": ["React", "Django", "MongoDB", "AI Integration"],
+      "image": "/finance.jpg",
+      "duration": "9 months",
+      "team": "15 developers"
+    },
+    {
+      "id": "logistics-app",
+      "title": "Fleet Management System",
+      "category": "Logistics",
+      "client": "Transportation Company",
+      "description": "Built an intelligent fleet management system with real-time tracking, route optimization, and driver management. The solution reduces operational costs and improves efficiency.",
+      "results": [
+        "35% reduction in fuel costs",
+        "25% improvement in delivery time",
+        "500+ vehicles managed"
+      ],
+      "technologies": ["React Native", "Node.js", "IoT", "GPS Integration"],
+      "image": "/finance.jpg",
+      "duration": "5 months",
+      "team": "7 developers"
+    },
+    {
+      "id": "real-estate-platform",
+      "title": "Property Management Platform",
+      "category": "Real Estate",
+      "client": "Property Developer",
+      "description": "Created a comprehensive property management platform with virtual tours, document management, and CRM integration. The platform streamlines property sales and management processes.",
+      "results": [
+        "45% faster property sales",
+        "70% increase in lead generation",
+        "1000+ properties listed"
+      ],
+      "technologies": ["Vue.js", "Laravel", "3D Rendering", "CRM Integration"],
+      "image": "/finance.jpg",
+      "duration": "6 months",
+      "team": "9 developers"
+    }
+  ]
+}
+

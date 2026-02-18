@@ -1,0 +1,865 @@
+{
+  "slider": {
+    "partners": [
+      { "name": "Dunkin Donuts", "image": "/partners/shilplay-logo.webp" },
+      { "name": "Trade Skills 4U", "image": "/partners/shilplay-logo.webp" },
+      { "name": "Corbel", "image": "/partners/shilplay-logo.webp" },
+      { "name": "Fisher & Paykel", "image": "/partners/shilplay-logo.webp" },
+      { "name": "Choices Flooring", "image": "/partners/shilplay-logo.webp" },
+      { "name": "Macquarie University", "image": "/partners/shilplay-logo.webp" },
+      { "name": "Oporto", "image": "/partners/shilplay-logo.webp" },
+      { "name": "Stanford University", "image": "/partners/shilplay-logo.webp" },
+      { "name": "Nikpol", "image": "/partners/shilplay-logo.webp" }
+    ]
+  },
+  "servicesSection": {
+    "title": "Our Custom Mobile App and Web Development Services",
+    "subtitle": "Our expert Mobile app developers create enterprise-grade AI-Powered web and mobile applications using modern frameworks and scalable architectures. We help businesses adopt futuristic technologies to improve performance, user experience, and market competitiveness.",
+    "services": [
+      {
+        "id": "mobile-app",
+        "label": "Mobile App Development",
+        "content": {
+          "heading": "Mobile App Development",
+          "description": "We have skilled Android and iOS developers who build intuitive, responsive mobile apps tailored to real business needs. From idea to launch, our custom mobile app development solutions focus on smooth navigation, strong performance, and scalability. Whether it's a startup MVP or a full-scale enterprise app, we design experiences users actually enjoy and businesses can grow with.",
+          "features": [
+            "Hybrid Mobile App Development",
+            "iOS App Development",
+            "Android App Development",
+            "React Native Development",
+            "Startup App Development",
+            "White Label Mobile App Development"
+          ]
+        }
+      },
+      {
+        "id": "healthcare",
+        "label": "Healthcare App Development",
+        "content": {
+          "heading": "Healthcare App Development",
+          "description": "Transform healthcare delivery with our specialized healthcare app development services. We create secure, HIPAA-compliant applications that connect patients with providers, manage medical records, and streamline healthcare operations. Our solutions improve patient care, enhance accessibility, and drive digital transformation in the healthcare industry.",
+          "features": [
+            "Telemedicine App Development",
+            "Patient Portal Applications",
+            "Medical Record Management",
+            "Healthcare Analytics Solutions",
+            "HIPAA Compliant Development",
+            "Pharmacy Management Apps"
+          ]
+        }
+      },
+      {
+        "id": "ai-app",
+        "label": "AI App Development",
+        "content": {
+          "heading": "AI App Development",
+          "description": "Leverage artificial intelligence to create intelligent, adaptive applications that learn and evolve. Our AI app development services integrate machine learning, natural language processing, and computer vision to build smart solutions that automate processes, provide insights, and deliver personalized user experiences. From chatbots to predictive analytics, we bring AI capabilities to your applications.",
+          "features": [
+            "Machine Learning Integration",
+            "Natural Language Processing",
+            "Computer Vision Solutions",
+            "AI-Powered Chatbots",
+            "Predictive Analytics Apps",
+            "Intelligent Automation"
+          ]
+        }
+      },
+      {
+        "id": "blockchain",
+        "label": "Blockchain App Development",
+        "content": {
+          "heading": "Blockchain App Development",
+          "description": "Build secure, decentralized applications powered by blockchain technology. Our blockchain app development services create transparent, tamper-proof solutions for various industries. From smart contracts to decentralized finance (DeFi) platforms, we deliver blockchain solutions that enhance security, reduce costs, and enable new business models.",
+          "features": [
+            "Smart Contract Development",
+            "DeFi Platform Development",
+            "Blockchain Integration",
+            "Cryptocurrency Wallet Apps",
+            "Supply Chain Solutions",
+            "Decentralized Applications (DApps)"
+          ]
+        }
+      },
+      {
+        "id": "nft",
+        "label": "NFT Marketplace Development",
+        "content": {
+          "heading": "NFT Marketplace Development",
+          "description": "Create your own NFT marketplace with our comprehensive development services. We build secure, scalable platforms for buying, selling, and trading non-fungible tokens. Our NFT marketplace solutions include wallet integration, auction systems, royalty management, and multi-chain support. Launch your digital asset marketplace with cutting-edge technology and seamless user experience.",
+          "features": [
+            "NFT Minting Platform",
+            "Auction & Bidding System",
+            "Multi-Chain Support",
+            "Wallet Integration",
+            "Royalty Management",
+            "Marketplace Analytics"
+          ]
+        }
+      },
+      {
+        "id": "ecommerce",
+        "label": "Ecommerce Web And App Development",
+        "content": {
+          "heading": "Ecommerce Web And App Development",
+          "description": "Build powerful ecommerce platforms that drive sales and enhance customer experience. Our ecommerce development services create feature-rich online stores with seamless payment integration, inventory management, and analytics. From B2C to B2B platforms, we deliver scalable ecommerce solutions that grow with your business and maximize conversions.",
+          "features": [
+            "Online Store Development",
+            "Payment Gateway Integration",
+            "Shopping Cart Solutions",
+            "Inventory Management",
+            "Multi-Vendor Platforms",
+            "Mobile Commerce Apps"
+          ]
+        }
+      },
+      {
+        "id": "website",
+        "label": "Website Development Service",
+        "content": {
+          "heading": "Website Development Service",
+          "description": "Create stunning, high-performance websites that represent your brand and drive business results. Our website development services deliver responsive, SEO-optimized sites built with modern technologies. From corporate websites to complex web applications, we combine beautiful design with robust functionality to create digital experiences that engage visitors and convert them into customers.",
+          "features": [
+            "Responsive Web Design",
+            "CMS Integration",
+            "E-Commerce Websites",
+            "Corporate Websites",
+            "Progressive Web Apps",
+            "SEO Optimized Development"
+          ]
+        }
+      },
+      {
+        "id": "react-native",
+        "label": "React Native Development",
+        "content": {
+          "heading": "React Native Development",
+          "description": "Develop cross-platform mobile applications with React Native for faster time-to-market and cost efficiency. Our React Native development services create native-like experiences on both iOS and Android from a single codebase. We leverage React Native's powerful framework to build performant, scalable mobile apps that deliver consistent user experiences across platforms.",
+          "features": [
+            "Cross-Platform Development",
+            "Native Performance",
+            "Code Reusability",
+            "Third-Party Integration",
+            "App Store Deployment",
+            "Maintenance & Support"
+          ]
+        }
+      },
+      {
+        "id": "flutter",
+        "label": "Flutter Development",
+        "content": {
+          "heading": "Flutter Development",
+          "description": "Build beautiful, natively compiled applications for mobile, web, and desktop with Flutter. Our Flutter development services leverage Google's UI toolkit to create fast, responsive applications with stunning animations and custom designs. From startups to enterprises, we deliver Flutter apps that perform excellently across all platforms with a single codebase.",
+          "features": [
+            "Multi-Platform Development",
+            "Custom UI/UX Design",
+            "High Performance",
+            "Hot Reload Development",
+            "Material Design",
+            "Widget Customization"
+          ]
+        }
+      },
+      {
+        "id": "fullstack",
+        "label": "Full Stack Development",
+        "content": {
+          "heading": "Full Stack Development",
+          "description": "End-to-end development services covering frontend, backend, and database solutions. Our full stack development team creates complete web applications with modern technologies and best practices. From API development to user interface design, we deliver scalable, maintainable solutions that power your business operations and drive digital transformation.",
+          "features": [
+            "Frontend Development",
+            "Backend Development",
+            "Database Design",
+            "API Development",
+            "Cloud Integration",
+            "DevOps Implementation"
+          ]
+        }
+      },
+      {
+        "id": "fintech",
+        "label": "Fintech App Development",
+        "content": {
+          "heading": "Fintech App Development",
+          "description": "Build secure, compliant financial technology applications that revolutionize banking and payment solutions. Our fintech app development services create innovative platforms for digital banking, payment processing, investment management, and financial planning. We ensure regulatory compliance, data security, and seamless user experiences in the financial sector.",
+          "features": [
+            "Digital Banking Apps",
+            "Payment Processing Solutions",
+            "Investment Platforms",
+            "Cryptocurrency Integration",
+            "Financial Planning Tools",
+            "Regulatory Compliance"
+          ]
+        }
+      },
+      {
+        "id": "edtech",
+        "label": "EdTech App Development",
+        "content": {
+          "heading": "EdTech App Development",
+          "description": "Transform education with innovative learning platforms and educational technology solutions. Our EdTech app development services create engaging, interactive applications for online learning, student management, virtual classrooms, and skill development. We build platforms that enhance learning outcomes and make education accessible to everyone.",
+          "features": [
+            "Learning Management Systems",
+            "Virtual Classroom Platforms",
+            "Student Management Systems",
+            "E-Learning Applications",
+            "Assessment Tools",
+            "Gamification Features"
+          ]
+        }
+      },
+      {
+        "id": "food-delivery",
+        "label": "Food Delivery App Development",
+        "content": {
+          "heading": "Food Delivery App Development",
+          "description": "Create comprehensive food delivery platforms that connect restaurants with customers seamlessly. Our food delivery app development services build feature-rich applications with real-time tracking, multiple payment options, restaurant management, and customer loyalty programs. From order placement to delivery, we create solutions that enhance the food ordering experience.",
+          "features": [
+            "Restaurant Management",
+            "Real-Time Order Tracking",
+            "Multiple Payment Options",
+            "Customer Loyalty Programs",
+            "Delivery Management",
+            "Rating & Review System"
+          ]
+        }
+      },
+      {
+        "id": "on-demand",
+        "label": "On-Demand App Development",
+        "content": {
+          "heading": "On-Demand App Development",
+          "description": "Build on-demand service platforms that connect service providers with customers instantly. Our on-demand app development services create scalable solutions for various industries including transportation, home services, beauty services, and more. We deliver apps with real-time booking, GPS tracking, and seamless payment integration.",
+          "features": [
+            "Real-Time Booking",
+            "GPS Tracking",
+            "Service Provider Management",
+            "In-App Messaging",
+            "Rating System",
+            "Multi-Service Platforms"
+          ]
+        }
+      },
+      {
+        "id": "social-media",
+        "label": "Social Media App Development",
+        "content": {
+          "heading": "Social Media App Development",
+          "description": "Create engaging social media platforms that connect people and build communities. Our social media app development services build feature-rich applications with content sharing, messaging, live streaming, and social networking capabilities. We deliver scalable platforms that handle millions of users and provide exceptional user experiences.",
+          "features": [
+            "Content Sharing",
+            "Real-Time Messaging",
+            "Live Streaming",
+            "Social Networking",
+            "Content Moderation",
+            "Analytics Dashboard"
+          ]
+        }
+      },
+      {
+        "id": "fitness",
+        "label": "Fitness App Development",
+        "content": {
+          "heading": "Fitness App Development",
+          "description": "Develop comprehensive fitness and wellness applications that help users achieve their health goals. Our fitness app development services create engaging platforms with workout tracking, nutrition planning, progress monitoring, and community features. We build apps that motivate users and provide personalized fitness experiences.",
+          "features": [
+            "Workout Tracking",
+            "Nutrition Planning",
+            "Progress Monitoring",
+            "Wearable Integration",
+            "Personal Trainer Features",
+            "Community Challenges"
+          ]
+        }
+      },
+      {
+        "id": "real-estate",
+        "label": "Real Estate App Development",
+        "content": {
+          "heading": "Real Estate App Development",
+          "description": "Build powerful real estate platforms that connect buyers, sellers, and agents seamlessly. Our real estate app development services create comprehensive solutions with property listings, virtual tours, mortgage calculators, and agent management. We deliver platforms that simplify property search and streamline real estate transactions.",
+          "features": [
+            "Property Listings",
+            "Virtual Property Tours",
+            "Mortgage Calculator",
+            "Agent Management",
+            "Property Search Filters",
+            "Document Management"
+          ]
+        }
+      },
+      {
+        "id": "travel",
+        "label": "Travel App Development",
+        "content": {
+          "heading": "Travel App Development",
+          "description": "Create comprehensive travel and tourism applications that enhance the travel experience. Our travel app development services build platforms for flight booking, hotel reservations, itinerary planning, and travel guides. We deliver solutions that make travel planning seamless and enjoyable for users worldwide.",
+          "features": [
+            "Flight Booking",
+            "Hotel Reservations",
+            "Itinerary Planning",
+            "Travel Guides",
+            "Weather Integration",
+            "Currency Converter"
+          ]
+        }
+      },
+      {
+        "id": "logistics",
+        "label": "Logistics App Development",
+        "content": {
+          "heading": "Logistics App Development",
+          "description": "Develop efficient logistics and supply chain management applications that optimize operations. Our logistics app development services create solutions for fleet management, route optimization, warehouse management, and delivery tracking. We build platforms that streamline logistics operations and improve efficiency.",
+          "features": [
+            "Fleet Management",
+            "Route Optimization",
+            "Warehouse Management",
+            "Delivery Tracking",
+            "Inventory Management",
+            "Driver Management"
+          ]
+        }
+      },
+      {
+        "id": "iot",
+        "label": "IoT App Development",
+        "content": {
+          "heading": "IoT App Development",
+          "description": "Build Internet of Things applications that connect and control smart devices seamlessly. Our IoT app development services create solutions for smart homes, industrial automation, healthcare monitoring, and environmental sensing. We deliver platforms that enable device connectivity and data management for IoT ecosystems.",
+          "features": [
+            "Smart Home Integration",
+            "Device Management",
+            "Real-Time Monitoring",
+            "Data Analytics",
+            "Remote Control",
+            "Security & Authentication"
+          ]
+        }
+      },
+      {
+        "id": "cloud",
+        "label": "Cloud App Development",
+        "content": {
+          "heading": "Cloud App Development",
+          "description": "Develop scalable cloud-based applications that leverage cloud infrastructure for optimal performance. Our cloud app development services create solutions using AWS, Azure, and Google Cloud platforms. We build applications that are scalable, secure, and cost-effective, enabling businesses to leverage cloud computing benefits.",
+          "features": [
+            "AWS Integration",
+            "Azure Solutions",
+            "Google Cloud Platform",
+            "Scalable Architecture",
+            "Cloud Security",
+            "Cost Optimization"
+          ]
+        }
+      },
+      {
+        "id": "enterprise",
+        "label": "Enterprise App Development",
+        "content": {
+          "heading": "Enterprise App Development",
+          "description": "Create robust enterprise applications that streamline business operations and improve productivity. Our enterprise app development services build custom solutions for CRM, ERP, project management, and workflow automation. We deliver scalable platforms that integrate with existing systems and support business growth.",
+          "features": [
+            "CRM Solutions",
+            "ERP Integration",
+            "Project Management",
+            "Workflow Automation",
+            "Business Intelligence",
+            "System Integration"
+          ]
+        }
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming App Development",
+        "content": {
+          "heading": "Gaming App Development",
+          "description": "Develop engaging mobile and web games that captivate audiences and drive user engagement. Our gaming app development services create immersive experiences with advanced graphics, multiplayer capabilities, and monetization features. We build games across various genres that provide entertainment and generate revenue.",
+          "features": [
+            "2D & 3D Games",
+            "Multiplayer Gaming",
+            "In-App Purchases",
+            "Game Analytics",
+            "Cross-Platform Gaming",
+            "AR/VR Integration"
+          ]
+        }
+      },
+      {
+        "id": "marketplace",
+        "label": "Marketplace App Development",
+        "content": {
+          "heading": "Marketplace App Development",
+          "description": "Build comprehensive marketplace platforms that connect buyers and sellers across various industries. Our marketplace app development services create scalable solutions with vendor management, payment processing, review systems, and admin dashboards. We deliver platforms that facilitate transactions and build trust between users.",
+          "features": [
+            "Vendor Management",
+            "Product Listings",
+            "Payment Processing",
+            "Review & Rating System",
+            "Admin Dashboard",
+            "Commission Management"
+          ]
+        }
+      }
+    ]
+  },
+  "servicesMarqueeSection": {
+    "services": [
+      "UI/UX Design",
+      "Product Design",
+      "Digital Marketing",
+      "Web Design",
+      "Mobile App Development",
+      "Cloud Solutions",
+      "Data Analytics",
+      "AI & Machine Learning",
+      "Blockchain Development",
+      "E-commerce Solutions",
+      "DevOps Services",
+      "Cybersecurity",
+      "Content Strategy",
+      "Brand Identity",
+      "Software Development",
+      "IT Consulting",
+      "Quality Assurance",
+      "Project Management",
+      "Business Intelligence",
+      "Enterprise Solutions"
+    ]
+  },
+  "aiSolutionsSection": {
+    "badge": "CUSTOM AI SOLUTIONS",
+    "title": "Creating Future-Ready AI Solutions with",
+    "tabs": [
+      {
+        "id": "automation",
+        "label": "AI Powered Automation",
+        "icon": "🤖",
+        "image": "/ai.webp",
+        "description": "Integrate intelligent automation into your mobile and web applications to eliminate repetitive tasks and streamline operations. Our AI-powered automation solutions enhance app functionality, reduce manual work, and improve user experiences. We build smart features that learn from user behavior and automate workflows, helping businesses operate more efficiently and scale faster.",
+        "benefits": [
+          "Intelligent workflow automation",
+          "Smart app features and capabilities",
+          "Seamless third-party integrations",
+          "Reduced operational costs"
+        ]
+      },
+      {
+        "id": "intelligence",
+        "label": "Decision Intelligence",
+        "icon": "💡",
+        "image": "/ai.webp",
+        "description": "Transform your applications with intelligent data analytics and predictive insights. Our decision intelligence solutions integrate advanced analytics into mobile apps and web platforms, enabling data-driven decision making. We help businesses leverage real-time data, predictive models, and AI algorithms to make informed choices and capitalize on opportunities faster.",
+        "benefits": [
+          "Real-time data analytics",
+          "Predictive insights and forecasting",
+          "Intelligent decision support systems",
+          "Advanced risk assessment tools"
+        ]
+      },
+      {
+        "id": "strategy",
+        "label": "Strategy & Development",
+        "icon": "🧩",
+        "image": "/ai.webp",
+        "description": "Build comprehensive AI strategies for your mobile and web applications. From initial AI integration planning to full-scale implementation, we provide end-to-end AI development services using modern frameworks and scalable architectures. Our solutions align with your business goals, enhance app performance, and drive measurable growth through intelligent technology adoption.",
+        "benefits": [
+          "Custom AI integration strategies",
+          "End-to-end AI development",
+          "Scalable and maintainable solutions",
+          "Continuous optimization and updates"
+        ]
+      }
+    ]
+  },
+  "industryExpertiseSection": {
+    "title": "Our Industry Expertise",
+    "description": "With over 10 years of experience, we deliver custom mobile app and web development solutions across diverse industries. Our deep domain expertise combined with modern technologies helps businesses transform digitally, improve efficiency, and achieve sustainable growth",
+    "industries": [
+      {
+        "id": "power",
+        "title": "Power, Utilities, & Energies",
+        "description": "The power and utilities industry is undergoing a significant transformation with the adoption of Industry 4.0 technologies, including IoT, automation, and data analytics. We deliver custom mobile and web solutions that help energy companies optimize operations, improve customer engagement, and drive digital transformation.",
+        "image": "/industries.jpg"
+      },
+      {
+        "id": "retail",
+        "title": "Retail & Consumer Packaged Goods",
+        "description": "Transform retail operations with our comprehensive mobile and web development solutions. We create e-commerce platforms, inventory management systems, and customer engagement apps that drive sales, enhance shopping experiences, and streamline retail operations for modern businesses.",
+        "image": "/industries.jpg"
+      },
+      {
+        "id": "banking",
+        "title": "Banking, Financial Services, and Insurance",
+        "description": "Build secure, compliant financial technology solutions with our expert development services. We create banking apps, payment gateways, investment platforms, and insurance applications with advanced security features, regulatory compliance, and seamless user experiences.",
+        "image": "/industries.jpg"
+      },
+      {
+        "id": "media",
+        "title": "Communications, Media, and Entertainment",
+        "description": "Create engaging digital experiences for media and entertainment companies. Our solutions include streaming platforms, content management systems, social media apps, and interactive entertainment applications that captivate audiences and drive engagement.",
+        "image": "/industries.jpg"
+      },
+      {
+        "id": "oil-gas",
+        "title": "Oil & Gas",
+        "description": "Deliver innovative technology solutions for the oil and gas industry. We develop field management systems, asset tracking applications, safety monitoring platforms, and data analytics tools that optimize operations, ensure compliance, and improve efficiency.",
+        "image": "/industries.jpg"
+      },
+      {
+        "id": "manufacturing",
+        "title": "Manufacturing",
+        "description": "The manufacturing industry is undergoing a significant transformation with the adoption of Industry 4.0 technologies, including IoT, automation, and data analytics. We build smart manufacturing solutions, supply chain management systems, and quality control applications that drive operational excellence.",
+        "image": "/industries.jpg"
+      },
+      {
+        "id": "healthcare",
+        "title": "Health & Life Sciences",
+        "description": "Transform healthcare delivery with our specialized technology solutions. We create telemedicine platforms, patient management systems, medical record applications, and health tracking solutions that improve patient care, enhance accessibility, and drive digital transformation in healthcare.",
+        "image": "/industries.jpg"
+      },
+      {
+        "id": "renewables",
+        "title": "Renewables",
+        "description": "Support renewable energy initiatives with our custom technology solutions. We develop energy monitoring systems, grid management platforms, solar and wind farm management applications, and sustainability tracking tools that help companies optimize renewable energy operations.",
+        "image": "/industries.jpg"
+      },
+      {
+        "id": "ites",
+        "title": "Information Technology Enabled Services",
+        "description": "Empower ITES companies with scalable technology solutions. We build enterprise software, cloud platforms, automation tools, and digital transformation solutions that enhance service delivery, improve efficiency, and drive business growth.",
+        "image": "/industries.jpg"
+      }
+    ]
+  },
+  "metricsSection": {
+    "title": "What Our Clients Say",
+    "subtitle": "Discover how we've helped businesses transform digitally through our innovative mobile app and web development solutions, AI integration, and cutting-edge technology services.",
+    "overallRating": {
+      "rating": 4.8,
+      "reviews": 150,
+      "platform": "Clutch"
+    },
+    "metrics": [
+      {
+        "id": "clients",
+        "value": 500,
+        "suffix": "+",
+        "label": "Happy Clients",
+        "icon": "👥"
+      },
+      {
+        "id": "projects",
+        "value": 1000,
+        "suffix": "+",
+        "label": "Projects Delivered",
+        "icon": "🚀"
+      },
+      {
+        "id": "experience",
+        "value": 10,
+        "suffix": "+",
+        "label": "Years of Experience",
+        "icon": "⭐"
+      },
+      {
+        "id": "team",
+        "value": 50,
+        "suffix": "+",
+        "label": "Expert Developers",
+        "icon": "💼"
+      }
+    ],
+    "ratings": {
+      "appStore": {
+        "rating": 4.8,
+        "label": "APP STORE",
+        "reviews": "2.5K+ Reviews"
+      },
+      "playStore": {
+        "rating": 4.9,
+        "label": "PLAY STORE",
+        "reviews": "3.2K+ Reviews"
+      },
+      "clutch": {
+        "rating": 4.8,
+        "label": "CLUTCH",
+        "reviews": "150+ Reviews"
+      }
+    },
+    "videoTestimonials": [
+      {
+        "id": "video-1",
+        "name": "Sarah Mitchell",
+        "company": "CTO, TechInnovate Solutions",
+        "rating": 5,
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      },
+      {
+        "id": "video-2",
+        "name": "Rajesh Kumar",
+        "company": "Founder, HealthTech App",
+        "rating": 5,
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      },
+      {
+        "id": "video-3",
+        "name": "Emily Chen",
+        "company": "Product Manager, FinTech Startup",
+        "rating": 5,
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      },
+      {
+        "id": "video-4",
+        "name": "Michael Thompson",
+        "company": "CEO, E-Commerce Platform",
+        "rating": 5,
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      },
+      {
+        "id": "video-5",
+        "name": "Priya Sharma",
+        "company": "Director, EdTech Company",
+        "rating": 5,
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      }
+    ],
+    "textReviews": [
+      {
+        "id": "review-1",
+        "text": "Exceptional mobile app development team! They built our React Native app from scratch and delivered it on time. The app performance is outstanding and user feedback has been excellent.",
+        "role": "CTO, Mobile Commerce Platform",
+        "rating": 5,
+        "verified": true
+      },
+      {
+        "id": "review-2",
+        "text": "Their AI integration services transformed our healthcare platform. The team's technical expertise and attention to detail exceeded our expectations. Highly recommended for complex tech projects.",
+        "role": "Product Manager, HealthTech Solutions",
+        "rating": 5,
+        "verified": true
+      },
+      {
+        "id": "review-3",
+        "text": "Outstanding web development services. They created a scalable e-commerce platform with modern technologies. The project management was smooth and communication was excellent throughout.",
+        "role": "Founder, E-Commerce Startup",
+        "rating": 5,
+        "verified": true
+      },
+      {
+        "id": "review-4",
+        "text": "Professional team with deep expertise in full-stack development. They delivered our enterprise application on schedule and within budget. The code quality and architecture are top-notch.",
+        "role": "Technical Director, Enterprise Solutions",
+        "rating": 5,
+        "verified": true
+      },
+      {
+        "id": "review-5",
+        "text": "Best development partner for our blockchain project. Their technical knowledge and innovative approach helped us launch successfully. The team is responsive and always available for support.",
+        "role": "CEO, Blockchain Platform",
+        "rating": 5,
+        "verified": true
+      },
+      {
+        "id": "review-6",
+        "text": "They developed our iOS and Android apps simultaneously using React Native. The apps are fast, user-friendly, and have received great reviews. Excellent technical skills and project delivery.",
+        "role": "VP Engineering, Tech Startup",
+        "rating": 5,
+        "verified": true
+      },
+      {
+        "id": "review-7",
+        "text": "Their custom AI solutions helped us automate critical business processes. The team understood our requirements perfectly and delivered innovative solutions that drive real business value.",
+        "role": "Chief Innovation Officer, AI Company",
+        "rating": 5,
+        "verified": true
+      },
+      {
+        "id": "review-8",
+        "text": "Excellent web development services with modern frameworks. They built our responsive website with SEO optimization and integrated all required third-party APIs seamlessly.",
+        "role": "Marketing Director, SaaS Platform",
+        "rating": 5,
+        "verified": true
+      }
+    ],
+    "trustBadges": [
+      {
+        "id": "iso",
+        "label": "ISO Certified",
+        "icon": "🏆"
+      },
+      {
+        "id": "gdpr",
+        "label": "GDPR Compliant",
+        "icon": "🔒"
+      },
+      {
+        "id": "security",
+        "label": "Enterprise Security",
+        "icon": "🛡️"
+      },
+      {
+        "id": "support",
+        "label": "24/7 Tech Support",
+        "icon": "💬"
+      }
+    ]
+  },
+  "awardsSection": {
+    "awards": [
+      {
+        "id": "1",
+        "image": "/award.png",
+        "title": "Azure AI Platform",
+        "year": "2025"
+      },
+      {
+        "id": "2",
+        "image": "/award.png",
+        "title": "Global AI",
+        "year": "2023"
+      },
+      {
+        "id": "3",
+        "image": "/award.png",
+        "title": "Data & AI Governance",
+        "year": "2024"
+      },
+      {
+        "id": "4",
+        "image": "/award.png",
+        "title": "Regional System Integration",
+        "year": "2022-23"
+      },
+      {
+        "id": "5",
+        "image": "/award.png",
+        "title": "Migration Partner",
+        "year": "2023-24"
+      },
+      {
+        "id": "6",
+        "image": "/award.png",
+        "title": "Top Partner",
+        "year": "2022"
+      },
+      {
+        "id": "7",
+        "image": "/award.png",
+        "title": "Innovation Award",
+        "year": "2024"
+      },
+      {
+        "id": "8",
+        "image": "/award.png",
+        "title": "Excellence in AI",
+        "year": "2023"
+      }
+    ]
+  },
+  "blogInsightsSection": {
+    "blogPosts": [
+      {
+        "id": "1",
+        "title": "Welcome to Celebal Technologies: Where Your Journey Begins!",
+        "description": "At Celebal Technologies, we believe that every individual is a vital contributor to our success story. Join us as we explore what makes our workplace special.",
+        "image": "/finance.jpg",
+        "author": "Sarah Johnson",
+        "date": "March 15, 2024"
+      },
+      {
+        "id": "2",
+        "title": "Diversity & Inclusion: A Culture of Belonging",
+        "description": "We celebrate diversity as a core principle at Celebal Technologies. Our inclusive environment fosters innovation and creativity.",
+        "image": "/healthcare.jpg",
+        "author": "Michael Chen",
+        "date": "March 10, 2024"
+      },
+      {
+        "id": "3",
+        "title": "Flexible Work Environment: Balance Your Life",
+        "description": "At Celebal Technologies, we recognize the importance of work-life balance. Our flexible policies help you thrive both professionally and personally.",
+        "image": "/industries.jpg",
+        "author": "Emily Rodriguez",
+        "date": "March 5, 2024"
+      },
+      {
+        "id": "4",
+        "title": "AI Revolution: Transforming Business Landscapes",
+        "description": "Discover how artificial intelligence is reshaping industries and creating new opportunities for businesses worldwide.",
+        "image": "/finance2.jpg",
+        "author": "David Kim",
+        "date": "February 28, 2024"
+      },
+      {
+        "id": "5",
+        "title": "Tech Summit 2024: Innovation Meets Excellence",
+        "description": "Join us at the annual tech summit where industry leaders share insights and innovations shaping the future of technology.",
+        "image": "/finance.jpg",
+        "author": "Lisa Wang",
+        "date": "February 20, 2024"
+      },
+      {
+        "id": "6",
+        "title": "Celebal Technologies Expands Global Presence",
+        "description": "We are excited to announce our expansion into new markets, bringing cutting-edge solutions to clients worldwide.",
+        "image": "/healthcare.jpg",
+        "author": "James Anderson",
+        "date": "February 15, 2024"
+      }
+    ]
+  },
+  "contactUsSection": {
+    "heading": "CONTACT US",
+    "mainMessage": "Get Customized Tech Solutions, Expert Recommendations, and Detailed Estimates for Your Mobile App, Web Development, and AI Projects.",
+    "confidentiality": [
+      "100% Confidential",
+      "We sign NDA"
+    ],
+    "emailLabel": "Or Reach Out To Us At",
+    "email": "coadal@gmail.com",
+    "formTitle": "Fill out the form and our tech experts will contact you"
+  },
+  "faqSection": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our services and solutions",
+    "image": "/faq.png",
+    "faqs": [
+      {
+        "id": "faq-1",
+        "question": "What Type Of Websites Can I Build With This Theme?",
+        "answer": "Digital Agency & Startup Figma Template suits for an AI Agency, tech startup, chat bot, data science, digital agency, consulting, IT solutions, voiceover, video voiceover, robotics, science, industry, machine learning, neural network or other modern technology business, you need a website that keeps pace."
+      },
+      {
+        "id": "faq-2",
+        "question": "Will I Get All Demos in One Purchase with Lifetime Access?",
+        "answer": "Yes, when you purchase our theme, you'll receive access to all demo variations in a single purchase. This includes lifetime updates and support, ensuring you always have the latest features and improvements at no additional cost."
+      },
+      {
+        "id": "faq-3",
+        "question": "Can I Change The Theme Language To My Local Language?",
+        "answer": "Absolutely! Our theme is fully translatable and supports multiple languages. You can easily change the language to your local language using built-in translation tools or by editing the language files directly. We also support RTL (Right-to-Left) languages for complete internationalization."
+      },
+      {
+        "id": "faq-4",
+        "question": "How To Install The TechAI Theme In WordPress?",
+        "answer": "Installing our theme is straightforward. Simply download the theme package, go to your WordPress admin panel, navigate to Appearance > Themes > Add New > Upload Theme, select the downloaded zip file, and click Install Now. After installation, activate the theme and follow the setup wizard to configure your site."
+      },
+      {
+        "id": "faq-5",
+        "question": "How Fast Is Your Support?",
+        "answer": "We pride ourselves on providing fast and responsive support. Our average response time is within 24 hours during business days, and we offer priority support for premium customers. Our support team is knowledgeable and dedicated to helping you resolve any issues quickly and efficiently."
+      },
+      {
+        "id": "faq-6",
+        "question": "Why The Price Of TechAI Is Affordable Compared To Other Themes Providing Similar Features",
+        "answer": "We believe in making premium design accessible to everyone. By optimizing our development process and focusing on efficiency, we can offer high-quality themes at competitive prices without compromising on features or support. Our goal is to provide exceptional value while maintaining the highest standards of quality and service."
+      }
+    ]
+  }
+}
+

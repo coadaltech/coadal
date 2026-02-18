@@ -24,3 +24,70 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Custom Animations */
+@keyframes slideDownFade {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px) translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 100vh;
+}
+
+h2{
+  font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+.animate-\[slideDownFade_0\.3s_ease-out\] {
+  animation: slideDownFade 0.3s ease-out;
+}
+
+.animate-\[fadeIn_0\.2s_ease-out\] {
+  animation: fadeIn 0.2s ease-out;
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #000048;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #000060;
+}
+
+/* Firefox scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #000048 #f1f1f1;
+}
